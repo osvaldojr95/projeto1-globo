@@ -1,0 +1,132 @@
+body {
+    font-family: 'Encode Sans', sans-serif;
+}
+
+nav {
+    border-top: 1px solid #F5F6F7;
+    border-bottom: 1px solid #F5F6F7;
+    padding: 10px 9% 10px 9%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav a {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+header div {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main {
+    margin: 30px auto 15px auto;
+    width: 1250px;
+    display: flex;
+}
+
+main h2 {
+    margin-top: 0px;
+    color: #C4160C;
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+main h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+main h4 {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: -20px;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mobile {
+    display: none;
+}
+
+.quad-esq {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quad-dir {
+    width: 46%;
+    display: flex;
+}
+
+.materias-horizontal {
+    margin-top: 15px;
+    border-top: 1px solid #EBEDEF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.materias-horizontal div {
+    width: 193px;
+}
+
+.materias-horizontal img {
+    border-radius: 12px;
+    width: 193px;
+    height: 110px;
+    margin-top: 20px;
+}
+
+.materias-horizontal h4 {
+    color: #C4160C;
+}
+
+.materias-vetical {
+    margin-left: 30px;
+    border-left: 1px solid #EBEDEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.materias-vetical div {
+    width: 240px;
+    margin: 0 0 20px 20px;
+}
+
+.materias-vetical img {
+    border-radius: 12px;
+    width: 240px;
+    height: 128px;
+}
+
+.cor-verde h4 {
+    color: #16AE54;
+}
+
+.cor-amarelo h4 {
+    color: #EC8006;
+}
